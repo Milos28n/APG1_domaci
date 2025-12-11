@@ -17,6 +17,7 @@ napisati pajplajn u jednoj liniji koda, koji će kao rezultat imati dužinu najd
 ## resenje:
 1. za prvi read>  zcat SRR7167438_1.fastq.gz|wc -l>read1.txt
 2. za drugi read> zcat SRR7167438_2.fastq.gz|wc -l>read2.txt
+   # u oba slučaja smo podelili broj readova sa 4 zato što svaki read zauima 4 linije, vrednost za oba 24440784/4=6110196
 
 
 # DOMACI 3.
