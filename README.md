@@ -15,8 +15,8 @@ napisati pajplajn u jednoj liniji koda, koji će kao rezultat imati dužinu najd
 1.Pre nego pogledamo detaljno sadržaj, da li biste mogli da iz terminala odredite koliki je broj readova u svakom od dva downloadovana fajla.
 
 ## resenje:
-1. za prvi read>  zcat SRR7167438_1.fastq.gz|grep '^@'|sort|uniq|wc -l>broj_readova1.txt
-2. za drugi read> zcat SRR7167438_2.fastq.gz|grep '^@'|sort|uniq|wc -l>broj_readova2.txt
+1. za prvi read>  zcat SRR7167438_1.fastq.gz|wc -l>read1.txt
+2. za drugi read> zcat SRR7167438_2.fastq.gz|wc -l>read2.txt
 
 
 # DOMACI 3.
