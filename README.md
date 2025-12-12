@@ -15,8 +15,7 @@ napisati pajplajn u jednoj liniji koda, koji će kao rezultat imati dužinu najd
 1.Pre nego pogledamo detaljno sadržaj, da li biste mogli da iz terminala odredite koliki je broj readova u svakom od dva downloadovana fajla.
 
 ## resenje:
-1. za prvi read>  zcat SRR7167438_1.fastq.gz|wc -l>read1.txt
-2. za drugi read> zcat SRR7167438_2.fastq.gz|wc -l>read2.txt
+za oba reada u našem slučaju rezultat je prikazan na STDOUT pokretanjem bash programa pod nazivom - ./reads1_reads2.sh
  
 
 # DOMACI 3.
